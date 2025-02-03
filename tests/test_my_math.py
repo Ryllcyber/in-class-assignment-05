@@ -9,8 +9,8 @@ def test_sum():
 # Work together
 ## Test multiply
 def test_multiply():
-    res = multiply(1,1)
-    assert res == 1
+    res = multiply(2,2)
+    assert res == 4
 
 # Check for understanding
 ## Test difference
