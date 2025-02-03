@@ -21,7 +21,8 @@ def test_difference():
 # Work together
 ## Test absolute sum
 
-
-
+def test_absolutesum():
+    res = sum (1,2)
+    assert res == 3
 # Check for understanding
 ## Test calculate age
