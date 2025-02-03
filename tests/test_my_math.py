@@ -1,6 +1,6 @@
 import pytest
 
-from src.my_math import sum, multiply, difference
+from src.my_math import sum, multiply, difference,absolute_sum
 
 def test_sum():
     res = sum(1,1)
@@ -22,7 +22,7 @@ def test_difference():
 ## Test absolute sum
 
 def test_absolutesum():
-    res = sum (1,2)
+    res = absolute_sum (-1,2)
     assert res == 3
 # Check for understanding
 ## Test calculate age
