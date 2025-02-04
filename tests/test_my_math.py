@@ -1,6 +1,6 @@
 import pytest
 
-from src.my_math import sum, multiply, difference,absolute_sum
+from src.my_math import sum, multiply, difference,absolute_sum,calculate_birth_year
 
 def test_sum():
     res = sum(1,1)
@@ -26,3 +26,8 @@ def test_absolutesum():
     assert res == 3
 # Check for understanding
 ## Test calculate age
+def test_birth_year():
+    res = calculate_birth_year (2025,19,False)
+    assert res == 2005
+def test_age():
+    res = calculate_birth_year
